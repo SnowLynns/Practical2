@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practical 2</string>
+    <string name="barn_owl">barn owl</string>
+    <string name="blue_whale">blue whale</string>
+    <string name="bobcat">bobcat</string>
+    <string name="brown_bear">brown bear</string>
+    <string name="banjo_catfish">banjo catfish</string>
+    <string name="barred_owl">barred owl</string>
+    <string name="bearded_dragon">bearded dragon</string>
+    <string name="bat">bat</string>
+    <string name="bengal_tiger">bengal tiger</string>
+    <string name="blue_jay">blue jay</string>
+</resources>

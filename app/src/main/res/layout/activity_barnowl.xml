@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/barnowlQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="''Barn owls are the most well-known member family of owls known for their stark white faces and haunting calls.''" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="234dp"
+            app:srcCompat="@drawable/web_a1_3751_8_barn_owl_shlomo_neuman_kk_adult_male_copy" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/barnowlClass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n
+    Barn Owl Scientific Classification:          \n
+    Kingdom\n
+    Phylum\n
+    Class\n
+    Order\n
+    Family\n
+    Genus\n
+    Scientific Name" />
+
+            <TextView
+                android:id="@+id/barnowlClassDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n\n
+Animalia\n
+Chordata\n
+Aves\n
+Strigiformes\n
+Tytonidae\n
+Tyto\n
+Tyto alba" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/barnowlConservation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n
+    Barn Owl Conservation Status:\n
+    Least Concern" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/barnowlLocations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n
+    Barn Owl Locations:\n
+    Africa\n
+    Asia\n
+    Central-America\n
+    Eurasia\n
+    Europe\n
+    North-America\n
+    Oceania\n
+    South-America\n" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                app:srcCompat="@drawable/barnowllocation" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/barnowlFacts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="     Barn Owl Facts:           \n
+    Main Prey:\n
+    Fun Fact:\n\n\n
+    Distinctive Feature:\n\n
+    Wingspan:\n
+    Habitat:\n
+    Diet:\n
+    Lifestyle:\n
+    Favorite Food:\n
+    Type:\n
+    Average Clutch Size:\n
+    Slogan:\n" />
+
+            <TextView
+                android:id="@+id/barnowlFactsDetails"
+                android:layout_width="235dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="\n
+Small mammals, Fish, Birds\n
+Barn owls are the most well-known member family of owls known for their stark white faces and haunting calls.\n
+White heart-shaped face and large, dark eyes\n
+75cm - 110cm (30in - 43in)\n
+Open plains and low-lying woodland\n
+Carnivore\n
+Solitary\n
+Small mammals\n
+Bird\n
+4\n
+Found everywhere around the world!" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/barnowlChara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="
+    Barn Owl Physical\n
+    Characteristics:                \n
+    Colour:\n
+    Skin Type:\n
+    Top Speed:\n
+    Lifespan:\n
+    Weight:\n
+    Height:\n" />
+
+            <TextView
+                android:id="@+id/barnowlCharaInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n
+Brown, Grey, Black, White, Orange\n
+Feathers\n
+50 mph\n
+5 - 10 years\n
+300g - 550g (10oz - 19.4oz)\n
+25cm - 45cm (9.8in - 18in)\n" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/barnowlDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description: \nThe barn owl is an animal that is most known for its bright white, heart-shaped face. Their heads are smooth and, unlike many other owl species, they do not have ear tufts. The owl’s eyes are large and dark. Their heart-shaped faces are framed by brown and grey feathers, as is the backside of their wings and their bodies. The wings are short, rounded, and pale beneath. Sometimes their pale white breasts are spotted. Female owls with spots are more desirable by males.\n\n
+These owls weigh approximately 400-600g, with the biggest barn owl weighing in at 700g or about 1.5 pounds. Males tend to be lighter in weight and smaller in size than females. These birds can be anywhere from 32 to 40cm in size (about 12.5 to 15 inches). Their wingspan is about 100-125cm (39 to 49 inches). \n[Long press to change the font size of the description]" />
+
+            <TextView
+                android:id="@+id/barnowlWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="\nFor more information, tap on the button below to check out the full website." />
+
+            <Button
+                android:id="@+id/btnBarnOwl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Barn Owl Website" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
